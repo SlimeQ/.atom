@@ -1,0 +1,15 @@
+'atom-workspace':
+  'ctrl-alt-space': 'git-blame:toggle'
+  'alt-shift-C': 'gradle-ci:toggle-results'
+  'alt-shift-I': 'tree-ignore:toggle'
+  'ctrl-alt-shift-a':'color-tabs:color-current-tab'
+  'ctrl-alt-shift-z':'color-tabs:uncolor-current-tab'
+'.platform-linux':
+  'ctrl-alt-shift-t': 'fuzzy-finder:toggle-file-finder'
+'body':
+  'ctrl-alt-right': 'pane:show-next-item'
+  'ctrl-alt-left': 'pane:show-previous-item'
+  'ctrl-alt-backspace': 'core:close'
+  'ctrl-alt-enter': 'application:new-file'
+  'ctrl-alt-shift-right': 'pane:move-item-right'
+  'ctrl-alt-shift-left': 'pane:move-item-left'

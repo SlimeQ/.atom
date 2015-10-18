@@ -1,0 +1,9 @@
+'.text.java':
+  'String':
+    'prefix': '__str'
+    'body': 'String $1 = $2;'
+  'inline Specification':
+    'prefix': '__spec'
+    'body': 'new Specification<FlexAppConfiguration>() {@Override public Predicate toPredicate(final Root<FlexAppConfiguration> root, final CriteriaQuery<?> query, final CriteriaBuilder cb) {
+        return cb.greaterThanOrEqualTo(root.get("list").get("lastModifiedAt"), stamp);
+    }}'
