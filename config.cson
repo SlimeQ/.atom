@@ -60,9 +60,6 @@
   "autocomplete-plus": {}
   "tidy-tabs": {}
   "quantum-shell": {}
-  "slack-chat":
-    api_key: "2190388042.8368836566"
-    api_secret: "beda2ff00dc88f0a468fb9ca4826f484"
   "git-plus": {}
   "browser-plus": {}
   "markdown-preview-plus": {}
